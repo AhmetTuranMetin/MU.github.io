@@ -1,2 +1,2 @@
 # MU.github.io
-örnek futbol takımı giriş sayfası
+örnek futbol takımı sitesi giriş sayfası
