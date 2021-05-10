@@ -1,0 +1,135 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #8B0000;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.sayfa {
+	width: 970px;
+	margin: 0 auto;
+	background-color: #A9A9A9;
+	border: 4px solid black;
+	border-bottom: none;
+}
+
+.baslik {
+	background-color: #A9A9A9;
+	color: #8B0000;
+	padding: 2px;
+}
+
+.menu {
+	overflow: hidden;
+	background-color: rgb(70,0,0);
+}
+
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu li{
+	list-style-type: none;
+	float:left;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #FFFAFA;
+	padding: 18px 18px;
+	display: block;
+	text-align: center;
+	border: 2px solid;
+	border-color: black;
+}
+
+.menu a:hover{
+	background-color: #FFFAFA;
+	color: #0000FF;
+}
+
+.alt_menu{
+	background-color: #0000CD;
+	position: absolute;
+}
+
+.alt_menu li{
+	display: none;
+	float: none;
+}
+
+.alt_menu a{
+	color: #FFFAFA;
+}
+
+.alt_menu a:hover{
+	background-color: rgb(70,0,0);
+	color: #FFFAFA;
+}
+
+.menu li:hover .alt_menu li{
+	display: block;
+	position: relative;
+}
+
+#ara input{
+	height: 20px;
+	border: 1px solid grey; 
+}
+
+#ara button:hover{
+	border: 1px solid black;
+	background-color: #4169E1;
+}
+#ara input:hover{
+	border: 1px solid black;
+}
+
+#ara button {
+	cursor: pointer;
+	height: 20px;
+	width: 41px;
+	float: right;
+	font-size: 75%;
+	padding-left: 7px;
+	background-color: #00008B;
+	color: #FFFAFA;
+}
+
+.sutun {
+	float: left;
+	padding: 12px;
+}
+
+.sol,.sag {
+	width: 25%;
+}
+
+.sol {
+	color: #8B0000;
+}
+
+.orta {
+	width: 50%;
+	border-left: 4px solid black;
+}
+
+.icerik:after {
+    content: "";
+	display: table;
+	clear: both;
+}
+
+.puan:hover {
+	border: 2px solid black;
+}
+
+.alt {
+	background-color: rgb(70,0,0);
+	color: #A9A9A9;
+	padding: 2px;
+}
